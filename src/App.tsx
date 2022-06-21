@@ -1,7 +1,5 @@
-import React from 'react';
 import { AddTodo } from './components/AddTodo';
 import { TodoList } from './components/TodoList';
-
 
 function App() {
   return (
@@ -9,7 +7,6 @@ function App() {
       <AddTodo />
       <TodoList />
     </div>
-
   );
 }
 
